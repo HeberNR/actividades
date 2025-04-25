@@ -32,15 +32,15 @@ public class Main {
             String nombre = sc.next().toLowerCase();
             encontrado = false;
 
-            for(int i = 0; i< alumnos.length; i++){
-                if(alumnos[i].equals(nombre)){
+            for (int i = 0; i < alumnos.length; i++) {
+                if (alumnos[i].equals(nombre)) {
                     LOG.info("La nota de " + nombre + " es " + notas[i]);
-                    encontrado  = true;
+                    encontrado = true;
                     break;
                 }
             }
 
-            if(!encontrado){
+            if (!encontrado) {
                 LOG.info("No se encontró al alumno: " + nombre);
             }
 

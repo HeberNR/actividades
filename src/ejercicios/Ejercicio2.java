@@ -33,7 +33,7 @@ public class Ejercicio2 {
             letra = sc.nextLine().toLowerCase();
             char primeraLetra = letra.charAt(0);
 
-            for (int i = 0; i<texto.length(); i++){
+            for (int i = 0; i < texto.length(); i++) {
                 if (texto.charAt(i) == primeraLetra)
                     contador++;
             }
