@@ -19,9 +19,9 @@ public class Ejercicio2 {
         */
 
         Scanner sc = new Scanner(System.in);
-        String texto = "";
-        String letra = "";
-        String seguir = "si";
+        String texto;
+        String letra;
+        String seguir;
 
         do {
 
